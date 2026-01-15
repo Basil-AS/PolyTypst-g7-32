@@ -1,0 +1,14 @@
+*.pdf
+*.png
+
+tests/**/out/**
+tests/**/diff/**
+tests/**/.gitignore
+
+!assets/**/*.pdf
+!assets/**/*.png
+
+!tests/**/*.png
+!tests/**/*.pdf
+tests/**/out/**/*.png
+tests/**/diff/**/*.png

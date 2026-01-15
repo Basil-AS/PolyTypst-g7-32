@@ -1,0 +1,21 @@
+[package]
+name = "polytypst-g7-32"
+version = "0.3.0"
+entrypoint = "src/export.typ"
+authors = [
+	"Pavel Eliseev <forgenet@inbox.ru>",
+	"Arseniy Zasypkin <imcatcatcher@internet.ru>"
+]
+license = "GPL-3.0-only"
+description = "Template for academic documents in compliance with GOST 7.32-2017, adapted for Moscow Polytechnic University"
+repository = "https://github.com/typst-g7-32/modern-g7-32"
+keywords = ["gost", "7.32", "2017", "paper", "document", "russian", "mospolytech", "polytech"]
+categories = ["report", "components", "scripting"]
+disciplines = ["education"]
+compiler = "0.14.0"
+exclude = [".github", "docs", "tests", "assets"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "assets/thumbnail.png"
